@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | tr " " "\n" | perl -ne 'if $. % 2 == 1'
+perl -nel 'if $. % 2 == 1'
